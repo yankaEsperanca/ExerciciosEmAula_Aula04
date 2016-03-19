@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de clientes</title>
+</head>
+<body>
+<h3>Cadastro de cliente</h3>
+<form action="manter_clientes.do" method = "post">     <!--coloca o .do para indicar que faz algo  --> 
+	Id: <input type = "number" name="id"><br>
+	Nome: <input type="text" name="nome"><br>
+	Fone: <input type="text" name="fone"><br>
+    <input type="submit" name="acao" value="Inserir">
+    <input type="submit" name="acao" value="Alterar">
+    <input type="submit" name="acao" value="Deletar">
+    <input type="submit" name="acao" value="ConsultarTodos">
+</form>       
+</body>
+</html>
